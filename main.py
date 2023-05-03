@@ -23,7 +23,7 @@ def check_direction(deg):
     
 
 city = "Moscow,RU"
-appid = "a16fec156d951b4d2450f31bfa54d7d8"
+appid = "<your API key>"
 
 res = requests.get("http://api.openweathermap.org/data/2.5/weather",
              params={'q': city, 'units': 'metric', 'lang': 'ru', 'APPID': appid})
